@@ -1,0 +1,14 @@
+defaults:
+  socks_server: 127.0.0.1
+  port: 1080
+
+environments:
+  dev:
+    socks_server: dev-proxy.example.com
+    port: 1080
+  stg:
+    socks_server: stg-proxy.example.com
+    port: 1080
+  prod:
+    socks_server: prod-proxy.example.com
+    port: 1080
